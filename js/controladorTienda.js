@@ -28,7 +28,7 @@ console.log(productos2[1])
 */
 
 
-
+/*
 //controlando etiquetas
 
 //1. Crear una varible para guardar una etiqueta
@@ -49,5 +49,25 @@ etiquetafoto.src="img/tommy3.jpg"
 //Cambiar el estilo de a etiqueta
 etiquetaTitulo.classList.add("text-center")
 etiquetaTitulo.classList.add("text-danger")
+*/
 
+//Tienda
+  let productosNombre=["batimovil","camiseta batman"]
+  let productosPrecio=[200000,100000]
+  let productosPromocion=[true,false]
+
+  console.log(productosNombre)
+
+
+  //Creando objetos con js
+
+  let usuario={
+      nombre:"luis",
+      edad:48,
+      amigos:["gatubela","mr frio","el pinguino"]
+  }
+
+  console.log(usuario)
+  console.log(usuario.nombre)
+  console.log(usuario.amigos[1])
 
