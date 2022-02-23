@@ -1,3 +1,4 @@
+/*
 // Entrada de problema
 let nombreProducto ="batimovil"
 let precioProducto ="400000"
@@ -24,3 +25,29 @@ console.log(productos)
 console.log(productos2[2])
 console.log(productos2[3])
 console.log(productos2[1])
+*/
+
+
+
+//controlando etiquetas
+
+//1. Crear una varible para guardar una etiqueta
+let etiquetaTitulo = document.getElementById("titulo")
+let etiquetaMenu = document.getElementById("PeakyBlinders")
+console.log(etiquetaTitulo)
+console.log(etiquetaMenu)
+
+
+//Como modificar una etiqueta
+etiquetaTitulo.textContent = "Rojo vos no existis"
+etiquetaMenu.textContent = "PeakyBlinders"
+
+//Controlando una imagen
+let etiquetafoto = document.getElementById("fototommy")
+etiquetafoto.src="img/tommy3.jpg"
+
+//Cambiar el estilo de a etiqueta
+etiquetaTitulo.classList.add("text-center")
+etiquetaTitulo.classList.add("text-danger")
+
+
